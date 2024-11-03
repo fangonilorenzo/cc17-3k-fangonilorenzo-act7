@@ -6,14 +6,14 @@ object DataSource {
 
     val defaultCategory = Category(
         name = R.string.defualt_name,
-        picture = R.drawable.gym,
+        picture = R.drawable.westside,
         reccomendationList = listOf()
     )
 
     val defaultReccomendation = Reccomendation(
         title = R.string.defualt_name,
         text = R.string.defualt_name,
-        image = R.drawable.gym
+        image = R.drawable.starfitness
     )
 
     val categories = listOf(
@@ -21,32 +21,32 @@ object DataSource {
         //Sights
         Category(
             name = R.string.category_1,
-            picture = R.drawable.sights,
+            picture = R.drawable.pugad,
             reccomendationList = listOf(
                 Reccomendation(
                     title = R.string.C1_Reccomendation1,
                     text = R.string.C1_Reccomendation1_text,
-                    image = R.drawable.spire
+                    image = R.drawable.pugad
                 ),
                 Reccomendation(
                     title = R.string.C1_Reccomendation2,
                     text = R.string.C1_Reccomendation2_text,
-                    image = R.drawable.botanic_gardens
+                    image = R.drawable.tapuacan
                 ),
                 Reccomendation(
                     title = R.string.C1_Reccomendation3,
                     text = R.string.C1_Reccomendation3_text,
-                    image = R.drawable.portmanock_beach
+                    image = R.drawable.kultura
                 ),
                 Reccomendation(
                     title = R.string.C1_Reccomendation4,
                     text = R.string.C1_Reccomendation4_text,
-                    image = R.drawable.bray_head_mountain
+                    image = R.drawable.ambangonan
                 ),
                 Reccomendation(
                     title = R.string.C1_Reccomendation5,
                     text = R.string.C1_Reccomendation5_text,
-                    image = R.drawable.st_patricks_church
+                    image = R.drawable.holy
                 )
             )
         ),
@@ -54,32 +54,32 @@ object DataSource {
         //Food Place
         Category(
             name = R.string.category_2,
-            picture = R.drawable.foodplace,
+            picture = R.drawable.inihawrepublic,
             reccomendationList = listOf(
                 Reccomendation(
                     title = R.string.C2_Reccomendation1,
                     text = R.string.C2_Reccomendation1_text,
-                    image = R.drawable.underground_indian_place
+                    image = R.drawable.kambak
                 ),
                 Reccomendation(
                     title = R.string.C2_Reccomendation2,
                     text = R.string.C2_Reccomendation2_text,
-                    image = R.drawable.welcome_city
+                    image = R.drawable.cafeinthesky
                 ),
                 Reccomendation(
                     title = R.string.C2_Reccomendation3,
                     text = R.string.C2_Reccomendation3_text,
-                    image = R.drawable.kfc
+                    image = R.drawable.inihawrepublic
                 ),
                 Reccomendation(
                     title = R.string.C2_Reccomendation4,
                     text = R.string.C2_Reccomendation4_text,
-                    image = R.drawable.ginos
+                    image = R.drawable.soulcafe
                 ),
                 Reccomendation(
                     title = R.string.C2_Reccomendation5,
                     text = R.string.C2_Reccomendation5_text,
-                    image = R.drawable.wings
+                    image = R.drawable.matutinas
                 )
             )
         ),
@@ -87,17 +87,17 @@ object DataSource {
         //Gym
         Category(
             name = R.string.category_3,
-            picture = R.drawable.gym,
+            picture = R.drawable.westside,
             reccomendationList = listOf(
                 Reccomendation(
                     title = R.string.C3_Reccomendation1,
                     text = R.string.C3_Reccomendation1_text,
-                    image = R.drawable.flyefit
+                    image = R.drawable.westside
                 ),
                 Reccomendation(
                     title = R.string.C3_Reccomendation2,
                     text = R.string.C3_Reccomendation2_text,
-                    image = R.drawable.westwood
+                    image = R.drawable.starfitness
                 )
             )
         ),
@@ -105,27 +105,27 @@ object DataSource {
         //Fun place
         Category(
             name = R.string.category_4,
-            picture = R.drawable.funplace,
+            picture = R.drawable.bato_de_luna,
             reccomendationList = listOf(
                 Reccomendation(
                     title = R.string.C4_Reccomendation1,
                     text = R.string.C4_Reccomendation1_text,
-                    image = R.drawable.escape_room
+                    image = R.drawable.bahay_na_bato_la_union
                 ),
                 Reccomendation(
                     title = R.string.C4_Reccomendation2,
                     text = R.string.C4_Reccomendation2_text,
-                    image = R.drawable.token
+                    image = R.drawable.bato_de_luna
                 ),
                 Reccomendation(
                     title = R.string.C4_Reccomendation3,
                     text = R.string.C4_Reccomendation3_text,
-                    image = R.drawable.cineworld
+                    image = R.drawable.immuki_island
                 ),
                 Reccomendation(
                     title = R.string.C4_Reccomendation4,
                     text = R.string.C4_Reccomendation4_text,
-                    image = R.drawable.ned_kellys
+                    image = R.drawable.la_union_grape_picking
                 )
             )
         )
